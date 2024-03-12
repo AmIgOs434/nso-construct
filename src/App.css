@@ -1,38 +1,463 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
+  min-height:100% ;
+  font-family: 'Roboto';
+
+}
+html{
+  min-height:100% ;
+}
+#root{
+  min-height:100% ;
+}
+.App{
+  min-height:100% ;
+  display: flex;
+}
+@font-face {
+	font-family: 'Roboto'; 
+	src: url(./fonts/Roboto-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Roboto1'; 
+	src: url(./fonts/Roboto-Medium.ttf); 
+}
+@font-face {
+	font-family: 'Involve'; 
+	src: url(./fonts/Involve-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Involve1'; 
+	src: url(./fonts/Involve-Medium.ttf); 
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 115px;
+  /* background-color: #0000005d; */
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.nav_label {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    color: #FFF;
+
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav_label_text{
+  margin-right: 35px;
+  font-size:15px ;
+}
+.section-container {
+  width: 100%;
+  scroll-snap-stop: always!important;
+  scrollbar-width: none;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  transition: 0.4s;
+}
+.section{
+  width: 100%;
+  scroll-snap-stop: always!important;
+  scrollbar-width: none;
+  height: 100vh;
+  scroll-snap-align: start;
+  background: #000;
+  position: relative;
+  border: 1px solid transparent;
+    transition: 0.4s;
+}
+.scroll-container {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.scroll-item {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
-.App-header {
-  background-color: #282c34;
+@keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+.nav_label1 {
+  width: 25%;
+  margin-right: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav_label2 {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+}
+.img_glav{
   min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+/* Проектирование складских комплексов, промышленных зданий и сооружений */
+.text_layer {
+  top: 25%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  /* text-align: center; */
+  width: 48%;
+  display: flex;
+  height: 50%;
+  flex-wrap: wrap;
+}
+.text_style{
+
+  width: 678px;
+  font-family: 'Involve';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 110%;
+  /* or 66px */
+  letter-spacing: -3px;
+  z-index: 3;
+  color: #FFFFFF;
+}
+
+/* Разработка проектной документации с гарантией прохождения государственной экспертизы и авторским надзором строительных работ */
+.text_style1 {
+  width: 536px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 155%;
+  z-index: 3;
+  color: #FFFFFF;
+}
+.text_style_screen_2_1 {
+  width: 459px;
+  font-family: 'Involve';
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 36px;
+  /* height: auto; */
+  line-height: 110%;
+  line-height: 39.6px;
+  /* letter-spacing: -3px; */
+  z-index: 3;
+  color: #FFFFFF;
+}
+
+/* При проектировании складов учитываем все факторы, влияющие на рентабельность будущего объекта: автоматизацию процессов, комбинацию с административными помещениями, удобство парковки, оборачиваемость грузов и обеспечение безопасности. */
+.text_style_screen_2_2 {
+  padding-top: 30px;
+  width: 514px;
+  /* top: calc(50% - 100px/2 - 92.5px); */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.8px;
+  color: #FFFFFF;
+  z-index: 3;
+}
+.text_style_screen_2_3 {
+/* >10 млн м2 */
+
+
+
+font-family: 'Involve';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 110%;
+/* identical to box height, or 66px */
+letter-spacing: -1px;
+color: #343434;
+z-index: 4;
+}
+.screen3_img{
+  /* Photo */
+
+position: absolute;
+width: 720px;
+height: 350px;
+bottom: 0;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+z-index: 5;
+}
+.svg_nso{
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+top:13%
+}
+
+.w_25{
+  width: 25%;
+}
+.screen3_text1 {
+  position: relative;
+  padding-top: 150px;
+  /* text-align: center; */
+  font-size: 36px;
+  font-family: 'Involve1';
+  color: #343434;
+  width: 52%;
+}
+.screen3_text_area {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.pd_25{
+  padding: 25px
+}
+.mt_20{
+  margin-top: 20px;
+}
+.screen3_text2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+/* or 25px */
+padding:25px;
+color: #343434;
+}
+
+.cards_area{
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding:20px
+}
+.screen3{
+  height: 140%;
+}
+.screen4{
+  height: 123%;
+}
+.text_layer_screen_2 {
+  top: 20%;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+ width: 50%;
+  display: flex;
+  /* height: 50%; */
+  flex-wrap: wrap;
+}
+
+.backdrop{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}
+.card_an {
+
+  margin-top: 70px;
+  height: 400px;
+  width: 740px;
+
+  border: 1px solid #ECECEC;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+}
+.card_label_1{
+display: flex;
+}
+.card_label_2 {
+  display: flex;
+  height: 320px;
+  padding: 40px;
+  width: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+  .card_label_2_1 {
+    display: flex;
+    height: 94px;
+    flex-wrap: wrap;
+}
+    .card_text_1{
+font-family: 'Involve1';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 120%;
+width: 152px;
+/* or 26px */
+letter-spacing: -0.5px;
+color: #343434;
+}
+      .card_text_2{
+        padding-top: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+/* or 25px */
+color: #343434;
+}
+
+.card_img{
+height: 283px;
+width: 300px;
+object-fit: cover;
+}
+.card_text_1_label {
+  display: flex;
+  height: 94px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card_text_1_number  {
+  /* 04 */
+width: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 155%;
+/* identical to box height, or 22px */
+color: #343434;
+}
+.card_text_img {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
 }
-
-.App-link {
-  color: #61dafb;
+.card_an_label{
+  display: flex;
+  position: relative;
+  margin-left: 10px;
+  width: 100%;
+  height: 700px;
 }
+.cards_1{
+  position: absolute;
+  z-index: 6;
+  left: 15%;
+  top: 8%;
+}
+.cards_2 {
+  position: absolute;
+  z-index: 7;
+  left: 30%;
+  top: 20%;
+}
+.cards_3 {
+  position: absolute;
+  z-index: 8;
+  right: 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  bottom: 0;
+}
+.mt_43{
+  margin-top: 43px;
+}
+.screen4_label{
+
+  display:flex;
+  width: 100%;
+  height: 100%;
+}
+.screen4_label1 {
+  display: flex;
+  width: 50%;
+  padding: 20px;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+.screen4_label2{
+  background-color: #f8f8f8;
+  display:flex;
+  margin-top: 150px;
+  width: 50%;
+  padding:20px
+}
+.screen4_text_label{
+  width: 100%;
+  height: 17%;
+  display: flex;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  .screen4_text_label_width{
+width: 100%;
+display: flex;
+/* Проектируем надежные склады во всех регионах России */
+font-family: 'Involve';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 110%;
+/* or 40px */
+letter-spacing: -1px;
+
+color: #343434;
+
+
+    }
+.screen4_map{
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  bottom: 55px;
+  position: relative;
+}
+.svg_map{
+  width: 100%;
+  height: 100%;
 }
