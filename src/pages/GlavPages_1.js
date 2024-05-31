@@ -21,7 +21,8 @@ import o_komp_three from '../img/image/o_komp_three.png'
 import o_komp_for from '../img/image/o_komp_for.jpeg'
 import img_glav_str from './image/img_glav_str.png'
 
-
+import './examples.css'
+import './fullpage.css'
 import card_1 from './image/card_1.png'
 import card_2 from './image/card_2.png'
 import card_3 from './image/card_3.png'
@@ -902,8 +903,7 @@ const height_def=(350*100)/windowHeight
 
 
 const open1_ =  () => {
-   if(openusl==false) {setopenusl(true)}
-   if(openusl==true) {setopenusl(false)}
+    navigate(USLUGI_ROUTER)
 }
 const function1 =  () => {
     // document.getElementById('elementID').click();

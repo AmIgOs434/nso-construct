@@ -1,11 +1,28 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-
+import $ from 'jquery'
+import './scroll1.js'
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
+
+    $(".scroll-wrapper").SmoothScrollWheel({
+    
+    
+      defaultSpeed: 50,
+      defaultAnimationTime: 50
+    });
+    $(".scroll-wrapper1221").SmoothScrollWheel({
+    
+    
+      defaultSpeed: 50,
+      defaultAnimationTime: 2000
+    });
+
+
+    
   }, [pathname]);
 
   return null;

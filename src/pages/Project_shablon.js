@@ -4,15 +4,14 @@ import NavBar from "./NavBar";
 import { useNavigate, useParams } from 'react-router-dom';
 import footer_1 from '../img/image/footer_1.png'
 import { useState } from "react";
-import { EXPERTIZA_ROUTER, KONTACTS_ROUTE, OOMPANII_ROUTER, POJECTS_ROUTER, POJECTS_SHABLON_ROUTER } from "../utils/consts.js";
+import { EXPERTIZA_ROUTER, KONTACTS_ROUTE, OOMPANII_ROUTER, POJECTS_ROUTER, POJECTS_SHABLON_ROUTER, USLUGI_ROUTER } from "../utils/consts.js";
 import $ from 'jquery'
 import project_1 from './image/project_1.jpeg'
 function Project_shablon() {
     const navigate = useNavigate()
     const [openusl, setopenusl] = useState(false);
     const open1_ =  () => {
-        if(openusl==false) {setopenusl(true)}
-        if(openusl==true) {setopenusl(false)}
+      navigate(USLUGI_ROUTER)
      }
      const naigate =  (kuda) => {
       // $('body').css({
@@ -24,11 +23,11 @@ function Project_shablon() {
   }
   
     return (
-        <div class='scroll-container'>
+      <div class="scroll-wrapper ov_hi bgww">
 
-<div class='scroll_hor121'>
+<div class=' scroll-section'>
 <div class=''></div>
-<div class='scroll-item scroll_hor12 '>
+<div class='scroll-item12  '>
 
 <NavBar />
 <div class='backdrop1'>
@@ -252,7 +251,7 @@ info.nso@inbox.ru
 </div>
 </div>
 
-<div class='scroll-item21  black' >
+<div class='scroll-item21 scroll-section1 black' >
 <div class='line_vert1_ z-Ind'>
 
 </div>
@@ -332,9 +331,7 @@ info.nso@inbox.ru
 
 </div>
 
-
-
-<div id="carouselExampleIndicators" class="carousel dis_ss slide">
+<div id="carouselExampleIndicators" class="scroll-section carousel dis_ss slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -342,13 +339,13 @@ info.nso@inbox.ru
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://s3-alpha-sig.figma.com/img/e64d/b34e/a19b1e0c4988b4a6590809f9fa21a584?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j5L9caoBP9m577a9FWyLPWBuZw8-Iwe8Zm2xKsnpJbZh5Y7E0OAKytlIW0dJjkdSubPHY8sZuNipP-E6kn0a0MVq~WNA1FUUvUTnif6MftC5FzhLTa11MLdWo7lj2kbVLA8efNboox8T7CN6wW9iE07zikGQ2XjckY1Tjl-Eu2~qhHaivPIesgvxvvfYO9HA4-F2Y621wjxPO~0~VyJXeHOmaFcInfR7nRMqoCqyOansYq6NdpMlYQE2nGYG0D3ZnDVTF0ErIhdRChBDRQqv1431uAT4JQg0IQ-jUp5nN7zySxFEDOyHkivD2dzw4rn9IZZ0qwIkI~GBF~vOgQhnFQ__" class="dimg d-block w-100" alt="..."/>
+      <img src={project_1} alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="https://s3-alpha-sig.figma.com/img/e64d/b34e/a19b1e0c4988b4a6590809f9fa21a584?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j5L9caoBP9m577a9FWyLPWBuZw8-Iwe8Zm2xKsnpJbZh5Y7E0OAKytlIW0dJjkdSubPHY8sZuNipP-E6kn0a0MVq~WNA1FUUvUTnif6MftC5FzhLTa11MLdWo7lj2kbVLA8efNboox8T7CN6wW9iE07zikGQ2XjckY1Tjl-Eu2~qhHaivPIesgvxvvfYO9HA4-F2Y621wjxPO~0~VyJXeHOmaFcInfR7nRMqoCqyOansYq6NdpMlYQE2nGYG0D3ZnDVTF0ErIhdRChBDRQqv1431uAT4JQg0IQ-jUp5nN7zySxFEDOyHkivD2dzw4rn9IZZ0qwIkI~GBF~vOgQhnFQ__" class=" dimg d-block w-100" alt="..."/>
+      <img src={project_1} alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="https://s3-alpha-sig.figma.com/img/e64d/b34e/a19b1e0c4988b4a6590809f9fa21a584?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j5L9caoBP9m577a9FWyLPWBuZw8-Iwe8Zm2xKsnpJbZh5Y7E0OAKytlIW0dJjkdSubPHY8sZuNipP-E6kn0a0MVq~WNA1FUUvUTnif6MftC5FzhLTa11MLdWo7lj2kbVLA8efNboox8T7CN6wW9iE07zikGQ2XjckY1Tjl-Eu2~qhHaivPIesgvxvvfYO9HA4-F2Y621wjxPO~0~VyJXeHOmaFcInfR7nRMqoCqyOansYq6NdpMlYQE2nGYG0D3ZnDVTF0ErIhdRChBDRQqv1431uAT4JQg0IQ-jUp5nN7zySxFEDOyHkivD2dzw4rn9IZZ0qwIkI~GBF~vOgQhnFQ__" class="dimg d-block w-100" alt="..."/>
+      <img src={project_1} alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -359,11 +356,11 @@ info.nso@inbox.ru
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Следующий</span>
   </button>
+
 </div>
 
 
-
-<div class='scroll-item screen3_ black' >
+<div class='scroll-item scroll-section1 screen3_ black' >
 <div class='line_vert1_ z-Ind'>
 
 </div>
@@ -432,7 +429,7 @@ info.nso@inbox.ru
 
 
 </div>
-<div class='scroll-item screen_10'>
+<div class='scroll-item scroll-section2 screen_10'>
  <div class='line_vert1'>
 
 </div>
@@ -482,7 +479,7 @@ info.nso@inbox.ru
 </div>
 
 </div>
-<div class='scroll-item footer'>
+<div class='scroll-item scroll-section2 footer'>
 <div class='line_vert1_'>
 
 </div>

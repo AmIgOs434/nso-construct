@@ -1,7 +1,7 @@
 
 
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {BrowserRouter} from "react-router-dom";
 import AppRouter from "./AppRouter.js";
 import {observer} from "mobx-react-lite";
@@ -10,6 +10,7 @@ import NavBar from './pages/NavBar.js';
 import $ from 'jquery'
 import LenisScroll from './utils/Lenis.tsx';
 import ScrollToTop from './ScrollRouter.js'
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 
 
 const App = observer(() => {
@@ -70,14 +71,15 @@ const App = observer(() => {
 
         </div>
         ) : (
-          <BrowserRouter>
-<ScrollToTop/>
-          <AppRouter /> 
 
-{/* <LenisScroll/> */}
+
+          <BrowserRouter >
+<ScrollToTop/>
+<LenisScroll/>
+          <AppRouter /> 
       </BrowserRouter>
- 
-          )}
+
+        )} 
         </>
 
     );
