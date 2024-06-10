@@ -13,6 +13,12 @@ import usl_2 from './image/usl_2.png'
 import usl_3 from './image/usl_3.png'
 import usl_4 from './image/usl_4.png'
 
+
+
+import usl_11 from './images/yurga/1.png'
+import usl_22 from './images/yurga/2.jpeg'
+import usl_33 from './images/yurga/3.png'
+import usl_44 from './images/yurga/4.png'
 function Uslugi() {
     const navigate = useNavigate()
     const [openusl, setopenusl] = useState(false);
@@ -85,7 +91,7 @@ function Uslugi() {
 <div class='w_50_01'>
 </div>
 <div class='disp_image'> 
-<img class='  img____' src={'https://s3-alpha-sig.figma.com/img/6224/5365/e582f7264b21f7fd04e9ccd0f30d9fdf?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MasXFQEUeVFcTlGoyJfyRvZkcC0pMuGZr5rhug7zUNSSQvBKycTM6gFwfyG1zBNuYgwNn6rgC3PkB6XfhzdXzmamt42SxSbLJ2JrLBh2neCDd8nLG0IAqB3EUFezt0HUNywnIc3joINpxnZgHe5Q6dWPnWMS-1gueL6Uy0RxKJJtAS~OTyU2rSBl0AZJxK0f7WJV7QOJQFVuDnxw07-w5hMkPTWLQkj2xXdmnbeANd6nowi4D3ceebIH4cnav381vV8gn8CFLwjSFFw~HpJ8Pyx8sumaBiIuf~fEGNkhpSATyxPffkYOCAPIDIHA5WZdV5imN62~Fzmh5vBx-3Tiiw__'}/>
+<img class='  img____' src={usl_11}/>
 </div>
 </div>
 
@@ -110,7 +116,7 @@ function Uslugi() {
 <div class='w_50_01'>
 </div>
 <div class='disp_image'>
-<img class=' img____' src={'https://s3-alpha-sig.figma.com/img/9d3e/868b/a251f21c4270714c3c79cd3cb1bbe210?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bD0J0cdrBoQi-69rffio-z4tm9x4~bf4ANxFTsaADJRQg4uy3N3VLB6clgRSAUp9oDCWDd3zC6A8gplGqfK10PUirl3t0m5j~2ouCu42QUW8ggOBFSRQxIU024q3Do6r-QZ2C9yidy9s5Ujy02Ynb8bnqoyz-ACTl3u6b0RTEL3Iyz0xJFzC~XCARZ2D6~7W~bxvlwNLzKRUFjhNMLP2Y-DvHL05SRiDhVFFvb9Dctw0d4F~lK~U3Dge-NLYHhrKM9sRFzpHmGtKyHeL6yHLXL2naFeTkKseaNjc2MWN9DXNV1bCEVBDHEWYgJqQKUTmCyaok31ipTL56O31XuT1Ig__'}/>
+<img class=' img____' src={usl_22}/>
 
 </div>
 
@@ -135,7 +141,7 @@ function Uslugi() {
 <div class='w_50_01'>
 </div>
 <div class='disp_image'>
-<img class=' img____' src={'https://s3-alpha-sig.figma.com/img/ed30/098d/c3e380543eceadb96db4e5c602546716?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UQsGJmgcUEgML1Wn1cuGV3GGm2vmgk4O4iZlCMoRur62Ke5t~mj5bb4rMLGr5x8oLUrg3uSNn7NjkaefDw9HVqcRedK2UEIwBfUCECiPlwuCa4l7v9NQkow-zaGBdlleg0ledzMOEVrgPvK0tJCHH6Y9GUlMGMXUFgMFH5rsL4HFN~iF0CN17o3iqekwyrSlFoM~lMZH1K81jF80ZiJfU16M~odY6mYQ35TEwXk07RwU9Ks~LMKfSYMtnobIi9OAnzVL-LX7YmunwfkBx6ty3GxHxC4~YEuF4Us64cmg3sjzsqmukPGdmbUnPqwGHy8tH1dWeeLin6Qfc64gUaW-7A__'}/>
+<img class=' img____' src={usl_33}/>
 </div>
 </div>
 
@@ -159,7 +165,7 @@ function Uslugi() {
 </div>
 <div class='disp_image'>
     
-<img class='img____' src={'https://s3-alpha-sig.figma.com/img/cfd7/9f5e/3990da5d88ec54b63f47c3231fef464f?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pJnf4PFtn-hRy2-PInG4UyFsYkr2ivOLTNKvGYPy5VRbjBxqhO7i67Lm-qgJAiO5dWQ1Oruv8dEUdgsspDcdD05K-u0N526LIBZO~vaDEaTKNhGUQ4zcvHaicYdFI8q2VQRnvar22YPUkF0wu9qEi2Kc7DHSOEwxG3bvIgWqYdIuEL9oSklVHCf2w36oiJNS6FQZ3mmfj3I46mODtZhj0I-fHyJpr0CbDpyzw3yHpmoXsNgZGyCGDGrTh271h5RzVD2Qd7eMargQOMu4BmkqWWa79ZRF-yuZyAUa3J2TJ01U5k5-n7z~UZGqa3xvk~MNaAYkZMEvvbXyeo~206OxNw__'}/>
+<img class='img____' src={usl_44}/>
 </div>
 </div>
 

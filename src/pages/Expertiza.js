@@ -527,7 +527,7 @@ function Expertiza() {
       </div>
       <div class='d_flex_00_3 '>
       <div class='d_flex_00_1'>
-      01
+      02
       </div>
       <div class='d_flex_00_2'>
       Оценка пожарной безопасности и безопасности эксплуатационных характеристик здания
@@ -535,7 +535,7 @@ function Expertiza() {
       </div>
       <div class='d_flex_00_3'>
       <div class='d_flex_00_1'>
-      01
+      03
       </div>
       <div class='d_flex_00_2'>
       Рациональность использования природных ресурсов и воздействие на окружающую среду
@@ -543,7 +543,7 @@ function Expertiza() {
       </div>
       <div class='d_flex_00_3 pright'>
       <div class='d_flex_00_1'>
-      01
+      04
       </div>
       <div class='d_flex_00_2'>
       Степень эффективности использования материально-технических ресурсов

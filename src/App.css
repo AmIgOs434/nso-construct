@@ -7,6 +7,13 @@ body {
 html.has-scroll-smooth {
   overflow: hidden; 
 }
+.carousel-item {
+ height:100vh;   
+}
+.vh_100{
+    height:100vh;
+    width:100%;
+}
 html.lenis, html.lenis body {
   height: auto;
 }
@@ -119,14 +126,8 @@ html{
   margin: 0;
 }
 .scroll-wrapper {
-  height: 100vh;
-  overflow-y: auto;
-  scroll-timeline: --squareTimeline y;
-  /* Firefox supports the older "vertical" syntax */
-  scroll-timeline: --squareTimeline vertical;
-  scroll-snap-stop: always;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+
+
 }
 .scroll-wrapper1221 {
 
@@ -1977,7 +1978,7 @@ color: rgba(52, 52, 52, 0.8);
 
 }
 .height_180{
-  min-height: 218%;
+  min-height: 218vh;
   width: 100%;
   position: relative;
   z-index: 10000;
@@ -6363,7 +6364,7 @@ height: 100%;
   padding-bottom: 50px!important;
 }
 .scroll-section1 {
-  padding-bottom: 300px!important;
+  padding-bottom: 0px!important;
    
   }
   .scroll-section2 {

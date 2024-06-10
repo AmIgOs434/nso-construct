@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 export default function LenisScroll() {
 	useEffect(() => {
 		const lenis = new Lenis({
-			duration: 3,
+			duration: 2,
 		})
 
 		function raf(time: number) {

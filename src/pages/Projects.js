@@ -9,12 +9,28 @@ import { useEffect, useState } from "react";
 import { EXPERTIZA_ROUTER, Ekat_ROUTE, Electrostal_ROUTE, KONTACTS_ROUTE, Kazan_Expr_ROUTE, Krasnodar_ROUTE, Kuchino_ROUTE, Nevinnomisk_ROUTE, New_Moskow_ROUTE, Novosib_ROUTE, OOMPANII_ROUTER, POJECTS_ROUTER, POJECTS_SHABLON_ROUTER, Podolsk_ROUTE, SPB_ROUTE, Samara_ROUTE, Sarpul_ROUTE, Tambov_ROUTE, Tula_ROUTE, USLUGI_ROUTER, Vladimir_ROUTE, Yurga_ROUTE } from "../utils/consts.js";
 import $ from 'jquery'
 
-import proj_1 from './image/proj_1.jpeg'
-import proj_2 from './image/proj_2.png'
-import proj_3 from './image/proj_3.png'
-import proj_4 from './image/proj_4.jpeg'
-import proj_5 from './image/proj_5.png'
-import proj_6 from './image/proj_6.png'
+
+
+import proj_1 from './images/ekat/1.jpeg'
+import proj_2 from './images/electrostal/1.jpeg'
+import proj_3 from './images/kazan/1.jpeg'
+import proj_4 from './images/koledino/1.jpeg'
+
+
+import proj_5 from './images/kotovsk/1.jpeg'
+import proj_6 from './images/krasnodar/1.jpeg'
+import proj_7 from './images/kuchino/1.jpeg'
+import proj_8 from './images/nevinnomisk/1.jpeg'
+import proj_9 from './images/new_moscow/1.jpeg'
+import proj_10 from './images/novosib/1.jpeg'
+import proj_11 from './images/samara/1.jpeg'
+import proj_12 from './images/sarpul/1.jpeg'
+import proj_13 from './images/spb/1.jpeg'
+import proj_14 from './images/tula/1.jpeg'
+import proj_15 from './images/vladimir/1.jpeg'
+import proj_16 from './images/new_moscow/1.jpeg'
+
+
 import simpleParallax from 'simple-parallax-js';
 
 function Projects() {
@@ -337,7 +353,7 @@ function Projects() {
       <div class='display_card_img_1_1_w0 '>
       </div>
       <div class='lebel_25 'onClick={()=>navigate(Electrostal_ROUTE)}>
-      <img class='display_card_img_1_2  thumbnail1' src={proj_1} />
+      <img class='display_card_img_1_2  thumbnail1' src={proj_2} />
       <div class='d_lfd_2'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -365,7 +381,7 @@ function Projects() {
       
       
       <div class='lebel_25 lebel_25_pr lebel_25_ml_20 none_d ' onClick={()=>navigate(Kazan_Expr_ROUTE)}> 
-      <img class='display_card_img_1_20 none_d thumbnail1 ' src={proj_1} />
+      <img class='display_card_img_1_20 none_d thumbnail1 ' src={proj_3} />
       <div class='d_lfd_2 none_d'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -387,7 +403,7 @@ function Projects() {
           </div>
       </div>
       <div class='lebel_50 none_d'>
-        <img class='display_card_img_1_10 he737px thumbnail' src={proj_4} onClick={()=>navigate(Krasnodar_ROUTE)}/>
+        <img class='display_card_img_1_10 he737px thumbnail' src={proj_6} onClick={()=>navigate(Krasnodar_ROUTE)}/>
       
           <div class='d_lfd_20'>
       <div class='dfew'>
@@ -411,7 +427,7 @@ function Projects() {
         </div>
         {/* </div> */}
         <div class=' lebel_25_b none_d'> 
-      <img class='display_card_img_1_2 thumbnail1' src={proj_6} onClick={()=>navigate(Kuchino_ROUTE)} />
+      <img class='display_card_img_1_2 thumbnail1' src={proj_7} onClick={()=>navigate(Kuchino_ROUTE)} />
       <div class='d_lfd_2'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -439,7 +455,7 @@ function Projects() {
         </div>
       <div class='display_card_img_112 none_d'>
         <div class='lebel_50 lebel_5012' onClick={()=>navigate(Nevinnomisk_ROUTE)}>
-        <img class='display_card_img_1_1  thumbnail'  src={proj_1} />
+        <img class='display_card_img_1_1  thumbnail'  src={proj_8} />
       
           <div class='d_lfd'>
       <div class='dfew'>
@@ -466,7 +482,7 @@ function Projects() {
       <div class='display_card_img_1_1_w0 '>
       </div>
       <div class='lebel_25 ' onClick={()=>navigate(New_Moskow_ROUTE)}> 
-      <img class='display_card_img_1_2 display_card_img_1_212  thumbnail1' src={proj_1} />
+      <img class='display_card_img_1_2 display_card_img_1_212  thumbnail1' src={proj_9} />
       <div class='d_lfd_2'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -492,7 +508,7 @@ function Projects() {
 
         <div class='display_galary_card'>
         <div class='display_galary_card_image '  onClick={()=>navigate(Novosib_ROUTE)}>
-          <img class='display_galary_card_image_  ' src={proj_1}/>
+          <img class='display_galary_card_image_  ' src={proj_10}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -514,7 +530,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image ' onClick={()=>navigate(Podolsk_ROUTE)}>
-          <img class='display_galary_card_image_ ' src={proj_1}/>
+          <img class='display_galary_card_image_ ' src={proj_4}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -536,7 +552,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image'  onClick={()=>navigate(Samara_ROUTE)}>
-          <img class='display_galary_card_image_' src={proj_2}/>
+          <img class='display_galary_card_image_' src={proj_11}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -559,7 +575,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image' onClick={()=>navigate(Ekat_ROUTE)}>
-          <img class='display_galary_card_image_' src={proj_3}/>
+          <img class='display_galary_card_image_' src={proj_1}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -581,7 +597,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image 'onClick={()=>navigate(Electrostal_ROUTE)}> 
-          <img class='display_galary_card_image_ ' src={proj_1}/>
+          <img class='display_galary_card_image_ ' src={proj_2}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -603,7 +619,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image 'onClick={()=>navigate(Krasnodar_ROUTE)}> 
-          <img class='display_galary_card_image_ ' src={proj_1}/>
+          <img class='display_galary_card_image_ ' src={proj_6}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -625,7 +641,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image'onClick={()=>navigate(Kuchino_ROUTE)}> 
-          <img class='display_galary_card_image_' src={proj_4}/>
+          <img class='display_galary_card_image_' src={proj_7}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -647,7 +663,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image'onClick={()=>navigate(Nevinnomisk_ROUTE)}> 
-          <img class='display_galary_card_image_'src={proj_1} />
+          <img class='display_galary_card_image_'src={proj_8} />
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -675,7 +691,7 @@ function Projects() {
       
       
       <div class='lebel_25 lebel_25_pr lebel_25_ml_20 none_d ' onClick={()=>navigate(Tula_ROUTE)}> 
-      <img class='display_card_img_1_20 none_d thumbnail1 ' src={proj_1} />
+      <img class='display_card_img_1_20 none_d thumbnail1 ' src={proj_14} />
       <div class='d_lfd_2 none_d'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -698,7 +714,7 @@ function Projects() {
           </div>
       </div>
       <div class='lebel_50 none_d' onClick={()=>navigate(Vladimir_ROUTE)}>
-        <img class='display_card_img_1_10 he737px thumbnail' src={proj_4} />
+        <img class='display_card_img_1_10 he737px thumbnail' src={proj_15} />
       
           <div class='d_lfd_20'>
       <div class='dfew'>
@@ -723,7 +739,7 @@ function Projects() {
         </div>
         {/* </div> */}
         <div class=' lebel_25_b none_d' onClick={()=>navigate(Yurga_ROUTE)}> 
-      <img class='display_card_img_1_2 thumbnail1' src={proj_6} />
+      <img class='display_card_img_1_2 thumbnail1' src={proj_16} />
       <div class='d_lfd_2'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -752,7 +768,7 @@ function Projects() {
         </div>
       <div class='display_card_img_1 none_d'>
         <div class='lebel_50 ' onClick={()=>navigate(Novosib_ROUTE)}>
-        <img class='display_card_img_1_1  thumbnail'  src={proj_1} />
+        <img class='display_card_img_1_1  thumbnail'  src={proj_10} />
       
           <div class='d_lfd'>
       <div class='dfew'>
@@ -779,7 +795,7 @@ function Projects() {
       <div class='display_card_img_1_1_w0 '>
       </div>
       <div class='lebel_25 'onClick={()=>navigate(Sarpul_ROUTE)}>
-      <img class='display_card_img_1_2  thumbnail1' src={proj_1}  />
+      <img class='display_card_img_1_2  thumbnail1' src={proj_12}  />
       <div class='d_lfd_2'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -808,7 +824,7 @@ function Projects() {
       
       
       <div class='lebel_25 lebel_25_pr lebel_25_ml_20 none_d ' onClick={()=>navigate(Tula_ROUTE)}> 
-      <img class='display_card_img_1_20 none_d thumbnail1 ' src={proj_1} />
+      <img class='display_card_img_1_20 none_d thumbnail1 ' src={proj_14} />
       <div class='d_lfd_2 none_d'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -831,7 +847,7 @@ function Projects() {
           </div>
       </div>
       <div class='lebel_50 none_d' onClick={()=>navigate(Vladimir_ROUTE)}>
-        <img class='display_card_img_1_10 he737px thumbnail' src={proj_4} />
+        <img class='display_card_img_1_10 he737px thumbnail' src={proj_15} />
       
           <div class='d_lfd_20'>
       <div class='dfew'>
@@ -856,7 +872,7 @@ function Projects() {
         </div>
         {/* </div> */}
         <div class=' lebel_25_b none_d' onClick={()=>navigate(Yurga_ROUTE)}> 
-      <img class='display_card_img_1_2 thumbnail1' src={proj_6} />
+      <img class='display_card_img_1_2 thumbnail1' src={proj_16} />
       <div class='d_lfd_2'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -885,7 +901,7 @@ function Projects() {
         </div>
       <div class='display_card_img_112 none_d'>
         <div class='  lebel_501 lebel_5012' onClick={()=>navigate(Podolsk_ROUTE)} >
-        <img class='display_card_img_1_1  thumbnail'  src={proj_1}/>
+        <img class='display_card_img_1_1  thumbnail'  src={proj_4}/>
       
           <div class='d_lfd'>
       <div class='dfew'>
@@ -917,7 +933,7 @@ function Projects() {
 
         <div class='display_galary_card'>
         <div class='display_galary_card_image 'onClick={()=>navigate(New_Moskow_ROUTE)}> 
-          <img class='display_galary_card_image_  ' src={proj_1}/>
+          <img class='display_galary_card_image_  ' src={proj_9}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -939,7 +955,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image 'onClick={()=>navigate(Sarpul_ROUTE)}> 
-          <img class='display_galary_card_image_ ' src={proj_1}/>
+          <img class='display_galary_card_image_ ' src={proj_12}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -961,7 +977,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image'onClick={()=>navigate(SPB_ROUTE)}> 
-          <img class='display_galary_card_image_' src={proj_2}/>
+          <img class='display_galary_card_image_' src={proj_13}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -983,7 +999,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image'onClick={()=>navigate(Tambov_ROUTE)}> 
-          <img class='display_galary_card_image_' src={proj_3}/>
+          <img class='display_galary_card_image_' src={proj_5}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -1005,7 +1021,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image 'onClick={()=>navigate(SPB_ROUTE)}> 
-          <img class='display_galary_card_image_ ' src={proj_1}/>
+          <img class='display_galary_card_image_ ' src={proj_13}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -1027,7 +1043,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image 'onClick={()=>navigate(Tambov_ROUTE)}> 
-          <img class='display_galary_card_image_ ' src={proj_1}/>
+          <img class='display_galary_card_image_ ' src={proj_5}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -1049,7 +1065,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image'onClick={()=>navigate(Samara_ROUTE)}> 
-          <img class='display_galary_card_image_' src={proj_4}/>
+          <img class='display_galary_card_image_' src={proj_11}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>
@@ -1072,7 +1088,7 @@ function Projects() {
           </div>
         </div>
         <div class='display_galary_card_image'onClick={()=>navigate(Kazan_Expr_ROUTE)}> 
-          <img class='display_galary_card_image_' src={proj_6}/>
+          <img class='display_galary_card_image_' src={proj_3}/>
           <div class='d_lfd_232'>
       <div class='dfew'>
       <div class='dfew_text'>

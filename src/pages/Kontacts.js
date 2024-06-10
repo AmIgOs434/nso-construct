@@ -334,9 +334,7 @@ function Kontacts() {
       
       </div>
       </div>
-      <div class='marg_2  '>
-        <img class='igmg_spo' src='https://s3-alpha-sig.figma.com/img/90a2/94ae/4f41170c3d293369196002401ef610cd?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JOHW8kak85QBcqyYhue3ILKaNl0FO~-Mxzg3yzuLqTC4ve6q3kibCW7PhLnvasKaGETzS9sNE3uJB~SUI69fqgnlJncKuiXcM5vlOBqkw2guYP1mFZl8nMehH~P9Ksg1oV3a0hYkvFbb~QjsFQcWByNQxr18cu4EoYYJdPyhCCd5H3FMzp4z0-FqRqqwsOkE9IoICs91Fd~~NU3K~2dx3htoRgvM7qrnb5ynivaJhdyvvl~Wp2quZtvpJMl299YSU59PXSJAmJ1Js5LlV1TpOJ7lO4jCDIlsLt4TSG5m3fpqqisoMAj5vHGM4YjzTJ9gHp5u4c5QwuVw7gYkPUsLCA__'/>
-      </div>
+
       </div>
 
       

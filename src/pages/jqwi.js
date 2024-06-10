@@ -138,15 +138,3 @@ function isEventSupported(eventName) {
  
       
 })(jQuery);
-$(document).ready(function() {
-
-
-    $(".scroll-wrapper").SmoothScrollWheel({
-    
-    
-      defaultSpeed: 40,
-      defaultAnimationTime: 50
-    });
-    
-    
-    })

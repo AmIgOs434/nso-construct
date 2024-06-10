@@ -8,19 +8,6 @@ const ScrollToTop = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    $(".scroll-wrapper").SmoothScrollWheel({
-    
-    
-      defaultSpeed: 50,
-      defaultAnimationTime: 50
-    });
-    $(".scroll-wrapper1221").SmoothScrollWheel({
-    
-    
-      defaultSpeed: 50,
-      defaultAnimationTime: 2000
-    });
-
 
     
   }, [pathname]);

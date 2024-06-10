@@ -4,10 +4,11 @@ import footer_1 from '../../img/image/footer_1.png'
 import { useState } from "react";
 import { EXPERTIZA_ROUTER, KONTACTS_ROUTE, OOMPANII_ROUTER,GLAV_ROUTE, POJECTS_ROUTER, POJECTS_SHABLON_ROUTER, Tula_ROUTE, USLUGI_ROUTER } from "../../utils/consts.js";
 import $ from 'jquery'
-import photo1 from '../image/Photo.jpg'
-import photo2 from '../image/Photo1.jpg'
-import photo3 from '../image/Photo2.jpg'
-import photo4 from '../image/Photo3.jpg'
+import photo1 from '../images/kotovsk/1.jpeg'
+import photo2 from '../images/kotovsk/2.jpeg'
+import photo3 from '../images/kotovsk/3.jpeg'
+
+
 import NavBar from "../NavBar";
 function Tambov() {
     const navigate = useNavigate()
@@ -336,17 +337,15 @@ info.nso@inbox.ru
   <div class="carousel-inner">
     
     <div class="carousel-item active">
-      <img src={photo1} alt="..."/>
+      <img class='vh_100' src={photo1} alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={photo2} alt="..."/>
+      <img class='vh_100' src={photo2} alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={photo3} alt="..."/>
+      <img class='vh_100' src={photo3} alt="..."/>
     </div>
-    <div class="carousel-item">
-      <img src={photo4} alt="..."/>
-    </div>
+
 
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

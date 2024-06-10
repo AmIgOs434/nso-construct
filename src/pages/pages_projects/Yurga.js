@@ -5,9 +5,7 @@ import { useState } from "react";
 import { EXPERTIZA_ROUTER, Ekat_ROUTE, KONTACTS_ROUTE, OOMPANII_ROUTER,GLAV_ROUTE, POJECTS_ROUTER, POJECTS_SHABLON_ROUTER, USLUGI_ROUTER } from "../../utils/consts.js";
 import $ from 'jquery'
 import photo1 from '../image/Photo.jpg'
-import photo2 from '../image/Photo1.jpg'
-import photo3 from '../image/Photo2.jpg'
-import photo4 from '../image/Photo3.jpg'
+
 import NavBar from "../NavBar";
 function Yurga() {
     const navigate = useNavigate()
@@ -326,23 +324,13 @@ info.nso@inbox.ru
 <div id="carouselExampleIndicators" class="scroll-section carousel dis_ss slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     
     <div class="carousel-item active">
-      <img src={photo1} alt="..."/>
+      <img class='vh_100' src={photo1} alt="..."/>
     </div>
-    <div class="carousel-item">
-      <img src={photo2} alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src={photo3} alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src={photo4} alt="..."/>
-    </div>
+
     
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
